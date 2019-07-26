@@ -1,0 +1,3 @@
+default: --p padrao --p allure_report
+padrao: --no-source --color --format pretty
+allure_report: --format AllureCucumber::Formatter --out=report/report_allure
